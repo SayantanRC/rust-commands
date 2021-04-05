@@ -1,11 +1,14 @@
 # Variables and Types
 
 ## Declaring mutable types
-All above declarations are for immutable variables, i.e they cannot be changed.  
-To create a mutable variable, specify `mut`
+To create a mutable variable, specify `mut`. Mutable variables can be changed after assignment.
+```
+let b = 20;
+b = 15; // error
+```
 ```
 let mut a = 5;
-a = 10;
+a = 10; // correct
 ```
 
 ## Following types are valid:  
