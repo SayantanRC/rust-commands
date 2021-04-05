@@ -54,3 +54,6 @@ Build release: (under `./target/debug`)
 ```
 cargo build --release
 ```
+
+- [Print commands](print.md)  
+- [Using other files](using-other-files.md)  
