@@ -42,3 +42,15 @@ Create new directory and init
 ```
 cargo new <new-directory>
 ```
+Run the project
+```
+cargo run
+```
+Build debug: (under `./target/debug`)
+```
+cargo build
+```
+Build release: (under `./target/debug`)
+```
+cargo build --release
+```
