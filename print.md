@@ -27,8 +27,8 @@ println!("The space ship {ship} is {height} meters tall.", ship = "Starship", he
 println!("10 + 10 is {}", 10 + 10);
 println!("Is it 20? {}", 10 + 10 == 20);
 ```
-> 10 + 10 is 20
-> Is it 20? true
+> 10 + 10 is 20  
+> Is it 20? true  
 ### Print debug trait
 Print multiple things at once.
 ```
