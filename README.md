@@ -27,3 +27,18 @@ rustup update
 ```
 rustup self uninstall
 ```
+
+## Compile
+```
+rustc program.rs
+```
+
+## Cargo commands
+Init in current directory
+```
+cargo init
+```
+Create new directory and init
+```
+cargo new <new-directory>
+```
