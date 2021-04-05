@@ -22,6 +22,13 @@ println!("The space ship {0} made by {1}, is {2} meters tall. {0} is a very good
 println!("The space ship {ship} is {height} meters tall.", ship = "Starship", height = 50);
 ```
 > The space ship Starship is 50 meters tall.
+### Equivalent expression
+```
+println!("10 + 10 is {}", 10 + 10);
+println!("Is it 20? {}", 10 + 10 == 20);
+```
+> 10 + 10 is 20
+> Is it 20? true
 ### Print debug trait
 Print multiple things at once.
 ```
