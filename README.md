@@ -55,6 +55,6 @@ Build release: (under `./target/debug`)
 cargo build --release
 ```
 # Syntax
-- [Print commands](print.md)  
+- [Print syntax](print.md)  
 - [Using other files](using-other-files.md)  
 - [Variables and types](variables-and-types.md)  
