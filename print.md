@@ -39,6 +39,7 @@ x - hexadecimal
 b - binary  
 o - octal  
 ```
-println!("Trait: {0:?}. Hex of {3} is {3:x}. Second arg is {2}. Binary of {1} is {1:b}.", (12, true), 24, "aaa", 10);
+let a_number = 24;
+println!("Trait: {0:?}. Hex of {3} is {3:x}. Second arg is {2}. Binary of {1} is {1:b}.", (12, true), a_number, "aaa", 10);
 ```
 > Trait: (12, true). Hex of 10 is a. Second arg is aaa. Binary of 24 is 11000.
