@@ -1,7 +1,7 @@
 # Rust Commands
 Commands and other info for rust
 
-### Install rust
+## Install rust
 Link: https://www.rust-lang.org/tools/install
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -17,3 +17,13 @@ rustc --version
 cargo - rust package manager
 rustup - for upgrades
 rustc - the compiler
+
+#### Update Rust
+```
+rustup update
+```
+
+#### Uninstall
+```
+rustup self uninstall
+```
