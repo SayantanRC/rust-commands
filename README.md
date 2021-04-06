@@ -1,5 +1,7 @@
 # Rust Commands
-Commands and other info for rust
+Commands and other info for rust  
+Information sources:  
+[Rust Crash course (Traversy Media)](https://www.youtube.com/watch?v=zF34dRivLOw)  
 
 ## Install rust
 Link: https://www.rust-lang.org/tools/install
@@ -60,3 +62,4 @@ cargo build --release
 - [Variables and types](variables-and-types.md)  
 - [Strings](strings.md)  
 - [Tuples](tuples.md)  
+- [Arrays](arrays.md)  
