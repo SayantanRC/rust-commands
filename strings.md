@@ -114,5 +114,6 @@ for word in a_string.split_whitespace() {
 ### Change case
 - Lower case: `<string-name>.to_lowercase()`  
 - Upper case: `<string-name>.to_uppercase()`  
+
 These two menthods change some special characters as well. Example, `to_lowercase()` converts 'Σ' to 'σ'.  
 To avoid processing special characters and only consider english alphabets, use `to_ascii_lowercase()` and `to_ascii_uppercase()` methods.
