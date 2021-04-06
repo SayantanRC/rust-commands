@@ -59,3 +59,4 @@ cargo build --release
 - [Using other files](using-other-files.md)  
 - [Variables and types](variables-and-types.md)  
 - [Strings](strings.md)  
+- [Tuples](tuples.md)  
