@@ -58,3 +58,4 @@ cargo build --release
 - [Print syntax](print.md)  
 - [Using other files](using-other-files.md)  
 - [Variables and types](variables-and-types.md)  
+- [Strings](strings.md)  
