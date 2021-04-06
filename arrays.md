@@ -56,3 +56,17 @@ println!("slice length: {}", slice.len());
 println!("Size in bytes: {}", std::mem::size_of_val(&arr));
 ```
 > Size in bytes: 24
+
+### Changing an element in array.
+An array must be mutable type to change element. Syntax is: `<array-name>[<index>] = <new_element>`
+```
+let mut arr_num = [1,2,3,4,5,6,7,8];
+println!("Array before changing {:?}", arr_num);
+arr_num[4] = 44;
+println!("Array after changing {:?}", arr_num);
+```
+> Array before changing [1, 2, 3, 4, 5, 6, 7, 8]  
+> Array after changing [1, 2, 3, 4, 44, 6, 7, 8]  
+
+### Adding or removing elements in array
+Not possible. Already present elements may be changed, but cannot be removed. New elements cannot be added.
